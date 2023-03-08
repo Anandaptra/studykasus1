@@ -1,5 +1,5 @@
 fun main() {
-    println("Masukkan angka: ")
+    print("Masukkan angka: ")
     val angka = readLine()!!.toInt()
 
     var angka2 = true
@@ -11,10 +11,10 @@ fun main() {
     }
 
     if (angka == 1) {
-        println("Bilangan 1 bukanlah bilangan prima")
+        print("$angka bukanlah bilangan prima")
     } else if (angka2) {
-        println("$angka adalah bilangan prima")
+        print("$angka adalah bilangan prima")
     } else {
-        println("Bilangan $angka bukanlah bilangan prima")
+        print("$angka bukanlah bilangan prima")
     }
 }
