@@ -3,7 +3,7 @@ fun main() {
     val angka = readLine()!!.toInt()
 
     var angka2 = true
-    for (i in 2..angka/2) {
+    for (i in 2 until angka/2) {
         if (angka % i == 0) {
             angka2 = false
             break
@@ -11,10 +11,10 @@ fun main() {
     }
 
     if (angka == 1) {
-        print("$angka bukanlah bilangan prima")
+        print("$angka bukan bilangan prima")
     } else if (angka2) {
         print("$angka adalah bilangan prima")
     } else {
-        print("$angka bukanlah bilangan prima")
+        print("$angka bukan bilangan prima")
     }
 }
